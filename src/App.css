@@ -1,0 +1,24 @@
+.app { max-width: 480px; margin: auto; padding: max(24px, env(safe-area-inset-top)) 24px max(28px, env(safe-area-inset-bottom)); }
+header { display: flex; align-items: center; justify-content: space-between; }
+.wordmark { text-decoration: none; color: #493568; font-family: Georgia, serif; font-size: 30px; letter-spacing: -1px; }
+.wordmark span { font: 12px sans-serif; color: #777080; margin-left: 10px; }
+.badge { font-size: 11px; border: 1px solid #ded7e9; border-radius: 20px; padding: 6px 10px; color: #736481; }
+.intro { text-align: center; padding: 34px 0 30px; }
+.moon { display: grid; place-items: center; width: 88px; height: 88px; margin: 0 auto 22px; border-radius: 50%; background: #eee8f5; color: #765897; font-size: 68px; line-height: 1; }
+.eyebrow { color: #7c6495; font-size: 12px; letter-spacing: 1px; font-weight: 600; }
+h1 { font-size: 32px; line-height: 1.45; letter-spacing: -1.4px; margin: 14px 0; font-weight: 650; }
+.description { font-size: 14px; color: #787280; line-height: 1.8; margin-bottom: 0; }
+fieldset { border: 0; margin: 0 0 25px; padding: 0; }
+legend, label { font-size: 14px; font-weight: 600; margin-bottom: 12px; display: block; }
+.topics { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.topics button { border: 1px solid #e5e0eb; border-radius: 12px; padding: 13px 8px; color: #6c6476; background: white; font-size: 14px; }
+.topics button.selected { background: #efe8f7; border-color: #9b83b6; color: #583b78; font-weight: 600; }
+textarea { display: block; width: 100%; resize: vertical; border: 1px solid #e5e0eb; border-radius: 14px; background: white; padding: 16px; line-height: 1.7; color: #383042; font-size: 14px; }
+textarea::placeholder { color: #938b9b; }
+.input-help { display: flex; justify-content: space-between; gap: 8px; margin: 9px 0 22px; color: #82798b; font-size: 11px; }
+.submit { width: 100%; border: 0; border-radius: 14px; padding: 17px 20px; background: #695083; color: white; font-weight: 600; display: flex; justify-content: space-between; }
+.reading { margin-top: 24px; padding: 22px; background: white; border: 1px solid #e5e0eb; border-radius: 16px; }
+.reading h2 { font-size: 18px; line-height: 1.6; overflow-wrap: anywhere; }
+.reading p { line-height: 1.85; font-size: 14px; }
+.reading .demo-note { font-size: 12px; color: #82798b; border-top: 1px solid #eee9f3; padding-top: 12px; }
+footer { text-align: center; color: #82798b; font-size: 11px; line-height: 1.9; padding-top: 28px; }
